@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from './front/component/navbar'
 import CustomCarousel from './front/component/carousel'
 import ContentSection from './front/component/content'
+import Footer from './front/component/footer'
 
 const Home = () => {
   return(
@@ -18,9 +19,7 @@ const Home = () => {
       `}</style>
       <CustomCarousel/>
       <ContentSection/>
-      <div className='container'>
-        <h1> Welcome</h1>
-      </div>
+      <Footer/>
     </div>
   );
 }
