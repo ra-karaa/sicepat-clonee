@@ -124,7 +124,7 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link href="/" legacyBehavior>
+                <Link href="/checkAwb" legacyBehavior>
                   <a className="nav-link">Cek Resi</a>
                 </Link>
               </li>

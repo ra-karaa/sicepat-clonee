@@ -3,6 +3,54 @@ import Head from "next/head";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 const ContentSection = () => {
+
+   const contentCard = [
+
+        {
+            id : 1, 
+            img : "https://www.sicepat.com/images/service/sicepat-siuntung.png",
+            title : "SIUNTUNG",
+            desc : "Layanan Pengiriman Cepat Yang Murah Dengan Harga Regular", 
+            link : "/"        
+        },
+        {
+            id : 2, 
+            img : "https://www.sicepat.com/images/service/sicepat-best.png",
+            title : "BEST",
+            desc : "Besok Sampai Tujuan", 
+            link : "/"        
+        },
+        {
+            id : 3, 
+            img : "https://www.sicepat.com/images/service/sicepat-halu.png",
+            title : "HALU",
+            desc : "Harga Mulai Lima Ribu", 
+            link : "/"        
+        }, 
+        {
+            id : 4, 
+            img : "https://www.sicepat.com/images/service/sicepat-gokil.png",
+            title : "GOKIL",
+            desc : "Cargo Kilat - Layanan Pengiriman Barang Dalam Jumlah Banyak/Ukuran Yang Lebih Besar", 
+            link : "/"        
+        }, 
+        {
+            id : 5, 
+            img : "https://www.sicepat.com/images/service/sicepat-h3lo.png",
+            title : "H3LO",
+            desc : "Heboh 3 Kilo – Kirim barang 3,3kg Bayar 2kg", 
+            link : "/"        
+        }, 
+        {
+            id : 6, 
+            img : "https://www.sicepat.com/images/service/sicepat-go.png",
+            title : "SICEPAT GO!",
+            desc : "Layanan paket internasional ke seluruh mancanegara", 
+            link : "/"        
+        }, 
+        
+   ];
+
   return (
     <>
       <Head>
@@ -87,320 +135,61 @@ const ContentSection = () => {
               <p className="section-description">
                 Pilih Layanan Pengiriman Yang Tepat di Waktu Yang Tepat.
               </p>
-            </Col>            
-                {/* untung */}
-                <Col md={4} className="mt-5">
-                    <Card
-                        className="p-2 card-content align-items-center">
-                        <Row className="postion-relative justify-content-center text-center">
-                        <Col md={10} className="service-card_mh10em__LIiZK">
-                        <div className="image-container">
-                            <img
-                                className="image-svg"
-                                src="https://www.sicepat.com/images/service/sicepat-siuntung.png"
-                            />
-                            </div>                    
-                        </Col>
-                        <Col md={10}>
-                            <h4 className="section-title">SIUNTUNG</h4>
-                            <p className="section-description">
-                            Layanan Pengiriman Cepat Yang Murah Dengan Harga Regular
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/cart.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Pilih layanan SIUNTUNG dengan harga regular tanpa biaya
-                            tambahan
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/time.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            15 Jam – Sesuai ETA
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/location.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Seluruh Indonesia (15 Jam - Khusus Wilayah Jabodetabek dan
-                            Bandung)
-                            </p>
-                        </Col>
-                        </Row>
-                    </Card>
-                </Col> 
-                
-                {/* best */}
-                <Col md={4} className="mt-5">
-                    <Card
-                        className="p-2 card-content align-items-center">
-                        <Row className="postion-relative justify-content-center">
-                        <Col md={10} className="service-card_mh10em__LIiZK">
-                        <div className="image-container">
-                            <img
-                                className="image-svg"
-                                src="https://www.sicepat.com/images/service/sicepat-best.png"
-                            />
-                            </div>                    
-                        </Col>
-                        <Col md={10}>
-                            <h4 className="section-title">BEST</h4>
-                            <p className="section-description">
-                            Besok Sampai Tujuan
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/cart.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Pilih layanan SIUNTUNG dengan harga regular tanpa biaya
-                            tambahan
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/time.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            15 Jam – Sesuai ETA
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/location.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Seluruh Indonesia (15 Jam - Khusus Wilayah Jabodetabek dan
-                            Bandung)
-                            </p>
-                        </Col>
-                        </Row>
-                    </Card>
-                </Col>
-
-                {/* halu  */}
-                <Col md={4} className="mt-5">
-                    <Card
-                        className="p-2 card-content align-items-center">
-                        <Row className="postion-relative justify-content-center">
-                        <Col md={10} className="service-card_mh10em__LIiZK">
-                        <div className="image-container">
-                            <img
-                                className="image-svg"
-                                src="https://www.sicepat.com/images/service/sicepat-halu.png"
-                            />
-                            </div>                    
-                        </Col>
-                        <Col md={10}>
-                            <h4 className="section-title"                            
-                            >HALU</h4>
-                            <p className="section-description">
-                            Harga Mulai Lima Ribu
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/cart.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Pilih layanan SIUNTUNG dengan harga regular tanpa biaya
-                            tambahan
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/time.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            15 Jam – Sesuai ETA
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/location.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Seluruh Indonesia (15 Jam - Khusus Wilayah Jabodetabek dan
-                            Bandung)
-                            </p>
-                        </Col>
-                        </Row>
-                    </Card>
-                </Col>
-
-                {/* gokil */}
-                <Col md={4} className="mt-5">
-                    <Card
-                        className="p-2 card-content align-items-center">
-                        <Row className="postion-relative justify-content-center">
-                        <Col md={10} className="service-card_mh10em__LIiZK">
-                        <div className="image-container">
-                            <img
-                                className="image-svg"
-                                src="https://www.sicepat.com/images/service/sicepat-gokil.png"
-                            />
-                            </div>                    
-                        </Col>
-                        <Col md={10}>
-                            <h4 className="section-title"                            
-                            >GOKIL</h4>
-                            <p className="section-description">
-                            Cargo Kilat - Layanan Pengiriman Barang Dalam Jumlah Banyak/Ukuran Yang Lebih Besar
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/cart.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            GOKIL adalah layanan SiCepat Ekspres dengan pengiriman Barang minimum charge 10kg dengan harga yang lebih ekonomis
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/time.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            15 Jam – Sesuai ETA
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/location.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Seluruh Indonesia (15 Jam - Khusus Wilayah Jabodetabek dan
-                            Bandung)
-                            </p>
-                        </Col>
-                        </Row>
-                    </Card>
-                </Col>   
-
-                {/* helo */}
-                <Col md={4} className="mt-5">
-                    <Card
-                        className="p-2 card-content align-items-center">
-                        <Row className="postion-relative justify-content-center">
-                        <Col md={10} className="service-card_mh10em__LIiZK">
-                        <div className="image-container">
-                            <img
-                                className="image-svg"
-                                src="https://www.sicepat.com/images/service/sicepat-h3lo.png"
-                            />
-                            </div>                    
-                        </Col>
-                        <Col md={10}>
-                            <h4 className="section-title"                            
-                            >H3LO</h4>
-                            <p className="section-description">
-                                Heboh 3 Kilo – Kirim barang 3,3kg Bayar 2kg
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/cart.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Layanan dengan ongkos kirim barang yang lebih irit 
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/time.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            15 Jam – Sesuai ETA
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/location.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Seluruh Indonesia (15 Jam - Khusus Wilayah Jabodetabek dan
-                            Bandung)
-                            </p>
-                        </Col>
-                        </Row>
-                    </Card>
-                </Col>
-
-                {/* go */}
-                <Col md={4} className="mt-5">
-                    <Card
-                        className="p-2 card-content align-items-center">
-                        <Row className="postion-relative justify-content-center">
-                        <Col md={10} className="service-card_mh10em__LIiZK">
-                        <div className="image-container">
-                            <img
-                                className="image-svg"
-                                src="https://www.sicepat.com/images/service/sicepat-go.png"
-                            />
-                            </div>                    
-                        </Col>
-                        <Col md={10}>
-                            <h4 className="section-title"                            
-                            >SICEPAT GO!</h4>
-                            <p className="section-description">
-                                Layanan paket internasional ke seluruh mancanegara
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/cart.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Layanan dengan ongkos kirim barang yang lebih irit 
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/time.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            15 Jam – Sesuai ETA
-                            </p>
-                        </Col>
-                        <Col md={10}>
-                            <img
-                            src="https://www.sicepat.com/images/icon/location.svg"
-                            className="icon"
-                            />
-                            <p className="section-description-child">
-                            Jabodetabek, Bandung, Yogyakarta, Semarang, Surabaya, Denpasar, Medan, Makassar
-                            </p>
-                        </Col>
-                        </Row>
-                    </Card>
-                </Col>                
-                
-
+            </Col>                            
+                {
+                    contentCard.map((content, key) => 
+                    <Col md={4} className="mt-5">
+                        <Card
+                            className="p-2 card-content align-items-center">
+                            <Row className="postion-relative justify-content-center text-center">
+                            <Col md={10} className="service-card_mh10em__LIiZK">
+                            <div className="image-container">
+                                <img
+                                    className="image-svg"
+                                    src={content.img}
+                                />
+                                </div>                    
+                            </Col>
+                            <Col md={10}>
+                                <h4 className="section-title">{content.title}</h4>
+                                <p className="section-description">
+                                    {content.desc}
+                                </p>
+                            </Col>
+                            <Col md={10}>
+                                <img
+                                src="https://www.sicepat.com/images/icon/cart.svg"
+                                className="icon"
+                                />
+                                <p className="section-description-child">
+                                Pilih layanan SIUNTUNG dengan harga regular tanpa biaya
+                                tambahan
+                                </p>
+                            </Col>
+                            <Col md={10}>
+                                <img
+                                src="https://www.sicepat.com/images/icon/time.svg"
+                                className="icon"
+                                />
+                                <p className="section-description-child">
+                                15 Jam – Sesuai ETA
+                                </p>
+                            </Col>
+                            <Col md={10}>
+                                <img
+                                src="https://www.sicepat.com/images/icon/location.svg"
+                                className="icon"
+                                />
+                                <p className="section-description-child">
+                                Seluruh Indonesia (15 Jam - Khusus Wilayah Jabodetabek dan
+                                Bandung)
+                                </p>
+                            </Col>
+                            </Row>
+                        </Card>
+                    </Col> 
+                )}                                                        
+                                
             </Row>                               
         </Container>
       </div>
