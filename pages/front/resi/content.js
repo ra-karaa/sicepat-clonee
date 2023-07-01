@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
-const content = () => {  
+export default function content(){
       const [resi, setResi] = useState('');
       const [errorVisible, setErrorVisible] = useState(true);
       const [pesanError, setPesanError] = useState('');
@@ -79,7 +79,7 @@ const content = () => {
                 {errorVisible && (
                 <Row className="justify-content-center mt-2">
                     <Col md={6}>                        
-                        <div className="card-body bg-danger text-center mt-2 p-2">
+                        <div key={pesanError} className="card-body bg-danger text-center mt-2 p-2">
                             <span> {pesanError} </span>
                         </div>                        
                     </Col>
@@ -90,4 +90,3 @@ const content = () => {
         </>
     );
 }
-export default content;
