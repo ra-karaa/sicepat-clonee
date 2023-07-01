@@ -141,7 +141,7 @@ const ContentSection = () => {
                     <Col md={4} className="mt-5">
                         <Card
                             className="p-2 card-content align-items-center">
-                            <Row className="postion-relative justify-content-center text-center">
+                            <Row key={key} className="postion-relative justify-content-center text-center">
                             <Col md={10} className="service-card_mh10em__LIiZK">
                             <div className="image-container">
                                 <img
