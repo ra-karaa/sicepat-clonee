@@ -5,23 +5,8 @@ import Content from './front/resi/content'
 import CustomCarousel from './front/component/carousel'
 
 const checkAwb = () => {
-    return(
-        <>
-        <Head>
-            <style>{`    
-                body{
-                    background-color: #fff;            
-                }     
-                .content-section{                            
-                    font-family: 'Roboto', sans-serif;                
-                } 
-            `}</style>
-            </Head>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
-                rel="stylesheet"
-            />
-          <div>
+    return(    
+        <div>  
           <Navbar/>
           <style jsx>{`
             .navbar {
@@ -33,8 +18,7 @@ const checkAwb = () => {
           <CustomCarousel/>
           <Content/>     
           <Footer/>
-        </div>
-        </>        
+        </div>        
       );
 }
 
