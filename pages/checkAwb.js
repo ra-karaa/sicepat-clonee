@@ -1,6 +1,7 @@
 import Navbar from './front/component/navbar'
 import Footer from './front/component/footer'
 import Content from './front/resi/content'
+import CustomCarousel from './front/component/carousel'
 
 const checkAwb = () => {
     return(
@@ -13,6 +14,7 @@ const checkAwb = () => {
               z-index: 100;
             }
           `}</style>  
+          <CustomCarousel/>
           <Content/>     
           <Footer/>
         </div>
