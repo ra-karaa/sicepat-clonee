@@ -2,7 +2,8 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
-export default function content(){
+const content = () => {
+    
       const [resi, setResi] = useState('');
       const [errorVisible, setErrorVisible] = useState(true);
       const [pesanError, setPesanError] = useState('');
@@ -90,3 +91,5 @@ export default function content(){
         </>
     );
 }
+
+export default content;
