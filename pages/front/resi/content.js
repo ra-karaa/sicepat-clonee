@@ -33,21 +33,7 @@ class content extends Component{
     
     render(){
         return(
-            <>
-            <Head>
-            <style>{`    
-                body{
-                    background-color: #fff;            
-                }     
-                .content-section{                            
-                    font-family: 'Roboto', sans-serif;                
-                } 
-            `}</style>
-            </Head>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
-                rel="stylesheet"
-            />
+            <>            
             <div className="content-section">
                 <Container className="mt-5 mb-5">
                     <Row>                
