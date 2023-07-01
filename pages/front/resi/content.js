@@ -61,7 +61,7 @@ class content extends Component{
                         </Col>
                     </Row>   
                     {this.state.errorVisible && (
-                    <Row className="justify-content-center mt-2">
+                    <Row key={this.state.errorVisible} className="justify-content-center mt-2">
                         <Col md={6}>                        
                             <div className="card-body bg-danger text-center mt-2 p-2">
                                 <span> {this.state.pesanError} </span>
