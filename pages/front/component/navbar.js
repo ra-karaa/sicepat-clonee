@@ -134,7 +134,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/services" legacyBehavior>
+                <Link href="/service" legacyBehavior>
                   <a className="nav-link">Services</a>
                 </Link>
               </li>
