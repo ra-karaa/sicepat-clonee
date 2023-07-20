@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from './front/component/navbar'
 import CustomCarousel from './front/component/carousel'
-import ContentSection from './front/component/content'
+import Content from './front/dashboard/content'
 import Footer from './front/component/footer'
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
         }
       `}</style>
       <CustomCarousel/>
-      <ContentSection/>
+      <Content/>
       <Footer/>
     </div>
   );
